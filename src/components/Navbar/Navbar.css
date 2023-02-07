@@ -1,0 +1,36 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	/* background-color: red; */
+}
+
+.nav-menu {
+	display: flex;
+	justify-content: space-between;
+}
+.navbar-nav {
+	margin: 0 40px;
+	font-size: 1.3rem;
+	font-weight: 300;
+	color: #fff;
+	transition: all 0.5s;
+	text-decoration: none;
+}
+
+.nav-logo-image {
+	width: 150px;
+}
+
+.nav-logo-mode {
+	transform: scale(1.2);
+	color: #1d9468;
+}
+
+.navbar-container {
+	position: relative;
+	z-index: 10;
+}
+.navbar-nav:hover {
+	color: #25db98;
+}
